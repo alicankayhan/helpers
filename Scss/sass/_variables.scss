@@ -1,0 +1,65 @@
+/*
+ * Copyright (c) 2023.
+ * Alican KAYHAN <info@ackayhan.com>
+ */
+
+//Responsive Screen-Sizes
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px
+);
+
+
+
+//Colors
+$main-color:  #212121;
+$second-color:#fff;
+$c-black:     #303030;
+$c-dark:      #494d5f;
+$c-shadow:    #3030302c;
+$c-gray:      #8d8d8d;
+$c-white:     #fbfbfb;
+$c-blue:      #34568B;
+$c-brown:     #c9a278;
+$c-green:     #88B04B;
+$c-orange:    #f15e37;
+$c-purple:    #6B5B95;
+$c-red:       #c62127;
+$c-yellow:    #fdd214;
+$c-pink:      #ff1d58;
+
+//Colors Class
+.main-color{color:$main-color!important}
+.second-color{color:$second-color!important}
+.c-white {color: $c-white !important}
+.c-black {color: $c-black !important}
+.c-blue {color: $c-blue !important}
+.c-purple {color: $c-purple !important}
+.c-orange {color: $c-orange !important}
+.c-red {color: $c-red !important}
+.c-gray{color: $c-gray!important}
+.c-yellow{color: $c-yellow!important}
+
+
+//Background-Colors
+.bg-purple{background-color: $c-purple !important}
+.bg-gray{background-color: $c-gray!important}
+.bg-shadow{background-color: $c-shadow!important}
+.bg-black{background-color: $c-black!important}
+.bg-orange{background-color: $c-orange!important}
+.bg-red {background-color: $c-red !important}
+.bg-footer{background-color: $c-gray!important}
+
+

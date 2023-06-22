@@ -1,0 +1,133 @@
+/*
+ * Copyright (c) 2023.
+ * Alican KAYHAN <info@ackayhan.com>
+ */
+/*
+ * Copyright (c) 2023.
+ * Alican KAYHAN <info@ackayhan.com>
+ */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300&display=swap");
+.main-color {
+  color: #212121 !important;
+}
+
+.second-color {
+  color: #fff !important;
+}
+
+.c-white {
+  color: #fbfbfb !important;
+}
+
+.c-black {
+  color: #303030 !important;
+}
+
+.c-blue {
+  color: #34568B !important;
+}
+
+.c-purple {
+  color: #6B5B95 !important;
+}
+
+.c-orange {
+  color: #f15e37 !important;
+}
+
+.c-red {
+  color: #c62127 !important;
+}
+
+.c-gray {
+  color: #8d8d8d !important;
+}
+
+.c-yellow {
+  color: #fdd214 !important;
+}
+
+.bg-purple {
+  background-color: #6B5B95 !important;
+}
+
+.bg-gray {
+  background-color: #8d8d8d !important;
+}
+
+.bg-shadow {
+  background-color: rgba(48, 48, 48, 0.1725490196) !important;
+}
+
+.bg-black {
+  background-color: #303030 !important;
+}
+
+.bg-orange {
+  background-color: #f15e37 !important;
+}
+
+.bg-red {
+  background-color: #c62127 !important;
+}
+
+.bg-footer {
+  background-color: #8d8d8d !important;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+}
+
+a, p {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.scroll-to-top {
+  position: fixed;
+  z-index: 100;
+  right: 1.3rem;
+  bottom: 1rem;
+  background: #fff;
+  color: white;
+  border-radius: 0px;
+  width: 2.5rem;
+  height: 2.5rem;
+  text-align: center;
+  line-height: 40px;
+  font-size: 1.3em;
+  transition: all 0.3s;
+  overflow: hidden;
+  border-radius: 0.5rem;
+}
+.scroll-to-top:hover {
+  color: white;
+}
+.scroll-to-top:hover:before {
+  animation: shine 1.5s;
+}
+.scroll-to-top::before {
+  position: absolute;
+  top: 0;
+  left: -75%;
+  z-index: 10;
+  display: block;
+  content: "";
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.3) 100%);
+  transform: skewX(-25deg);
+}/*# sourceMappingURL=main.css.map */
